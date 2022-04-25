@@ -2,7 +2,7 @@
 <!DOCTYPE html>
 <html>
     <head>
-        <title><strong>Login</strong></title>
+        <title>Login</title>
     </head>
 <body>
     <div class='container'>
@@ -13,11 +13,11 @@
     <form action='login.php' method='post'>
         <?php include('errors.php') ?>
         <div>
-            <label for='username'>Username : </label>
+            <label for='username'><b>Username :</b> </label>
             <input type='text' name='username' required>
         </div>
         <div>
-            <label for='password'>Password : </label>
+            <label for='password'><b>Password :</b> </label>
             <input type='password' name='password_1' required>
         </div>
         <div>
