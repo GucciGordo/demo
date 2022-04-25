@@ -2,7 +2,7 @@
 <!DOCTYPE html>
 <html>
     <head>
-        <title>Login</title>
+        <title><strong>Login</strong></title>
     </head>
 <body>
     <div class='container'>
