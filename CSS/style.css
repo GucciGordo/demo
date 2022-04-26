@@ -22,19 +22,19 @@ h1 {
  }
  p  {
     font-family:courier;
-    background-color:tomato;
+    background-color:rgb(191, 105, 212);
     border-radius: 10px;
     display : table;
  }
  <!--body {
-    background-color: #cccccc;
+    background-color: #c27575;
     background: url("../SSphotos/ssRoundRailHillBomb0.jpg") no-repeat center center fixed;
     background-attachment: fixed;
     background-size: 100%
  } -->
  .thrasher  {
     font-family:courier;
-    background-color:tomato;
+    background-color:rgb(99, 48, 39);
     font-size: 40px;
     font-weight: bold;
     margin: 20px;
@@ -48,11 +48,11 @@ h1 {
  .container {
        width: 500px;
        height: auto;
-       background-color: #FF9;
+       background-color: rgb(163, 24, 145);
        margin-right: auto;
        margin-left: auto;
        color: #066;
-       border-radius: 10px;
+       border-radius: 30px;
  }
  label {
     display: table-cell;
@@ -66,7 +66,11 @@ h1 {
     font-family:courier;
     background-color:tomato;
     display: table;
+    border-radius: 30px;
  }
 input {
      display: table-cell; 
+}
+button {
+    border-radius: 30px;
 }
