@@ -24,17 +24,19 @@ if(isset($_GET['logout']))
     </head>
     <body style="background-color:#4c516d;">
     <body>
-        <h1>This is the homepage.</h1>
-        <?php
-        if(isset($_SESSION['success'])) :
-        ?>
-        <div>
-            <h3>
+        <div class="container">
+            <h1>This is the homepage.</h1>
             <?php
-            echo $_SESSION['success'];
-            unset($_SESSION['success']);
+            if(isset($_SESSION['success'])) :
             ?>
-            </h3>
+            <div>
+                <h3>
+                <?php
+                echo $_SESSION['success'];
+                unset($_SESSION['success']);
+                ?>
+                </h3>
+            </div>
         </div>
         <?php endif ?>
         <?php if(isset($_SESSION['username'])) : ?>

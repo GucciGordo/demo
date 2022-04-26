@@ -12,7 +12,6 @@ h1 {
     font-family:courier;
     text-align: justify;   
     border-radius: 10px;
- 
  }
  h3 {
     color: black;
@@ -20,13 +19,11 @@ h1 {
     text-align: center;
     background-color:tomato;
     border-radius: 10px;
- 
  }
  p  {
     font-family:courier;
     background-color:tomato;
     border-radius: 10px;
- 
  }
  body {
     background-color: #cccccc;
@@ -46,7 +43,15 @@ h1 {
     border-color:black;
     margin: 30px;
     border-radius: 10px;
- 
+ }
+ .container {
+       width: 90%;
+       height: auto;
+       background-color: #FF9;
+       margin-right: auto;
+       margin-left: auto;
+       color: #066;
+       border-radius: 10px;
  }
  img {
     border: 2px solid black;
