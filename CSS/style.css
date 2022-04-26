@@ -1,0 +1,57 @@
+h1 {
+    color: black;
+    font-family: courier;
+    text-align:center;
+    background-color:tomato;
+    padding:15px;
+    border-radius: 10px;
+ 
+ }
+ h2 {
+    color: tomato;
+    font-family:courier;
+    text-align: justify;   
+    border-radius: 10px;
+ 
+ }
+ h3 {
+    color: black;
+    font-family:courier;
+    text-align: center;
+    background-color:tomato;
+    border-radius: 10px;
+ 
+ }
+ p  {
+    font-family:courier;
+    background-color:tomato;
+    border-radius: 10px;
+ 
+ }
+ body {
+    background-color: #cccccc;
+    background: url("../SSphotos/ssRoundRailHillBomb0.jpg") no-repeat center center fixed;
+    background-attachment: fixed;
+    background-size: 100%
+ }
+ .thrasher  {
+    font-family:courier;
+    background-color:tomato;
+    font-size: 40px;
+    font-weight: bold;
+    margin: 20px;
+    border-radius: 10px;
+ }
+ .photies {
+    border-color:black;
+    margin: 30px;
+    border-radius: 10px;
+ 
+ }
+ img {
+    border: 2px solid black;
+ }
+ form {
+    font-family:courier;
+    background-color:tomato;
+ }
