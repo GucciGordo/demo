@@ -5,6 +5,8 @@
         <title>Login</title>
     </head>
 <body>
+<body style="background-color:#7e5e60;">
+
     <div class='container'>
         <div class='header'>
         <h2>Login</h2>

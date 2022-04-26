@@ -21,6 +21,7 @@ if(isset($_GET['logout']))
     <head>
         <title>Homepage</title>
     </head>
+    <body style="background-color:#4c516d;">
     <body>
         <h1>This is the homepage.</h1>
         <?php
