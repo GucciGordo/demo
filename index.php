@@ -40,7 +40,7 @@ if(isset($_GET['logout']))
         </div>
         <?php endif ?>
         <?php if(isset($_SESSION['username'])) : ?>
-            <div class="container"></div>
+            <div class="container">
                 <h3>Welcome <strong><?php echo $_SESSION['username']; ?>!</strong></h3>
                 <button><a href="index.php?logout='1'">Logout</a></button>
             </div>
