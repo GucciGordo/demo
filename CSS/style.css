@@ -10,7 +10,7 @@ h1 {
  h2 {
     color: tomato;
     font-family:courier;
-    text-align: justify;   
+    text-align: center;   
     border-radius: 10px;
  }
  h3 {
@@ -25,12 +25,14 @@ h1 {
     background-color:rgb(191, 105, 212);
     border-radius: 10px;
     display : table;
+    text-align: center;
  }
  <!--body {
     background-color: #c27575;
     background: url("../SSphotos/ssRoundRailHillBomb0.jpg") no-repeat center center fixed;
     background-attachment: fixed;
     background-size: 100%
+    text-align: center;
  } -->
  .thrasher  {
     font-family:courier;
@@ -57,7 +59,7 @@ h1 {
  label {
     display: table-cell;
     width: 100px;
-    text-align: right;
+    text-align: center;
  }
  img {
     border: 2px solid black;
@@ -67,9 +69,11 @@ h1 {
     background-color:tomato;
     display: table;
     border-radius: 30px;
+    text-align: center;
  }
 input {
-     display: table-cell; 
+     display: table-cell;
+     text-align: center; 
 }
 button {
     border-radius: 30px;

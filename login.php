@@ -11,6 +11,7 @@
     <div class='container'>
         <div class='header'>
         <h2>Login</h2>
+        </div>
     </div>
     <!--<span class="thrasher"> -->
     <div class="container">
