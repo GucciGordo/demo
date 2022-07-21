@@ -11,7 +11,7 @@
         <h2>Register</h2>
         </div>
     </div>
-    <div class="container">
+    <div class="container2">
         <form action='registration.php' method='post'>
             <?php include('errors.php') ?>
             <div>

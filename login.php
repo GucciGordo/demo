@@ -13,8 +13,8 @@
         <h2>Login</h2>
         </div>
     </div>
-    <div class="container">
-        <form action='login.php' method='post'>
+    <div class='container'>
+        <form style='background-color: #dda0dd' style='border-radius:3px' action='login.php' method='post'>
             <?php include('errors.php') ?>
             <div>
                 <label for='username'><b>Username :</b> </label>
@@ -30,6 +30,7 @@
             <p>Don't have an account? <a href='registration.php'><b>Register here.</b></a></p>
             <br>
             <p>Forgot password? <a href='passwordreset.php'><b>Click here.</b></a></p>
+        </form>
     </div>
 
 
