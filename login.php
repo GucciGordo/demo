@@ -3,7 +3,7 @@
 <html>
     <head>
         <title>Login</title>
-        <link rel="stylesheet" href="CSS\style.css">
+        <link rel="stylesheet" href="css\style.css">
     </head>
 <body>
 <body style="background-color:#7e5e60;">
@@ -14,7 +14,7 @@
         </div>
     </div>
     <div class='container'>
-        <form style='background-color: #dda0dd' style='border-radius:3px' action='login.php' method='post'>
+        <form style='background-color: #dda0dd' action='login.php' method='post'>
             <?php include('errors.php') ?>
             <div>
                 <label for='username'><b>Username :</b> </label>

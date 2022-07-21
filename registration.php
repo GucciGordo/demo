@@ -3,7 +3,7 @@
 <html>
     <head>
         <title>Registration</title>
-        <link rel="stylesheet" href="CSS\style.css">
+        <link rel="stylesheet" href="css\style.css">
     </head>
 <body style="background-color:#483248;">
     <div class='container'>

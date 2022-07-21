@@ -20,7 +20,7 @@ if(isset($_GET['logout']))
 <html>
     <head>
         <title>Homepage</title>
-        <link rel="stylesheet" href="CSS\Style.css">
+        <link rel="stylesheet" href="css\style.css">
     </head>
     <body style="background-color:#4c516d;">
     <body>
