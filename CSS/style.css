@@ -2,13 +2,13 @@ h1 {
     color: black;
     font-family: courier;
     text-align:center;
-    background-color:tomato;
+    background-color:rgb(239, 229, 227);
     padding:15px;
     border-radius: 10px;
  
  }
  h2 {
-    color: tomato;
+    color: rgb(239, 228, 226);
     font-family:courier;
     text-align: center;   
     border-radius: 10px;
@@ -17,7 +17,7 @@ h1 {
     color: black;
     font-family:courier;
     text-align: center;
-    background-color:tomato;
+    background-color:rgb(61, 61, 61);
     border-radius: 10px;
  }
  p  {
@@ -27,16 +27,16 @@ h1 {
     display : table;
     text-align: center;
  }
- <!--body {
-    background-color: #c27575;
-    background: url("../SSphotos/ssRoundRailHillBomb0.jpg") no-repeat center center fixed;
+ body {
+    background-color: #b675c2;
+    background: url(".../SSA/SSphotos/ssRoundRailHillBomb0.jpg") no-repeat center center fixed;
     background-attachment: fixed;
     background-size: 100%
     text-align: center;
- } -->
+ }
  .thrasher  {
     font-family:courier;
-    background-color:rgb(99, 48, 39);
+    background-color:rgb(70, 66, 66);
     font-size: 40px;
     font-weight: bold;
     margin: 20px;
@@ -50,7 +50,7 @@ h1 {
  .container {
        width: 500px;
        height: auto;
-       background-color: rgb(163, 24, 145);
+       background-color: rgb(141, 121, 138);
        margin-right: auto;
        margin-left: auto;
        color: #066;
@@ -66,7 +66,7 @@ h1 {
  }
  form {
     font-family:courier;
-    background-color:tomato;
+    background-color:rgb(72, 40, 111);
     display: table;
     border-radius: 30px;
     text-align: center;
