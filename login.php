@@ -13,7 +13,6 @@
         <h2>Login</h2>
         </div>
     </div>
-    <!--<span class="thrasher"> -->
     <div class="container">
         <form action='login.php' method='post'>
             <?php include('errors.php') ?>
@@ -32,7 +31,6 @@
             <br>
             <p>Forgot password? <a href='passwordreset.php'><b>Click here.</b></a></p>
     </div>
-    <!-- </span> -->
 
 
 
