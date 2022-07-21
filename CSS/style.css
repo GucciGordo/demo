@@ -30,6 +30,9 @@
     text-align: center;
     border: 2px solid black;
     border-radius: 4px;
+    color: white;
+    margin-right: auto;
+    margin-left: auto;
  }
  body {
     background-color: #b675c2;
@@ -41,7 +44,7 @@
     border-radius: 4px;
  }
  .container {
-       width: 500px;
+       width: 400px;
        height: auto;
        background-color: rgb(141, 121, 138);
        margin-right: auto;
@@ -53,8 +56,9 @@
 
  label {
     display: table-cell;
-    width: 100px;
-    text-align: center;
+    width: 200px;
+    text-align: left;
+    color: black;
  }
  img {
     border: 2px solid black;
@@ -62,6 +66,13 @@
 
 input {
      display: table-cell;
-     text-align: center; 
+     text-align: left; 
+     border: 2px solid black;
+     border-radius: 4px;
+
+}
+button {
+   border: 2px solid black;
+   border-radius: 4px;
 }
 

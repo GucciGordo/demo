@@ -5,7 +5,7 @@
         <title>Login</title>
         <link rel="stylesheet" href="css\style.css">
     </head>
-<body>
+
 <body style="background-color:#7e5e60;">
 
     <div class='container'>
