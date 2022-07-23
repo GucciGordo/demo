@@ -3,3 +3,6 @@ This is an exploration into the server side of web development. This tool create
 TODO:
 Password recovery.
 Proper error handling.
+Account success email.
+Email verification.
+Phone verification adnd text.
