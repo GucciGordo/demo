@@ -6,6 +6,7 @@ session_start();
 $username = "";
 $email = "";
 $errors = array();
+$veremail = "";
 
 //connect to db
 $db = mysqli_connect('localhost','root','','demo') or die("Could not connect to database");
@@ -91,6 +92,18 @@ if(isset($_POST['login_user']))//login_user buttton
 
     }
 
+}
+
+//password resest logic
+if(isset($_POST['send_link']))//send resest link button pressed
+{
+    $query = "SELECT * FROM users WHERE email = $veremail";
+    $boolemail = mysqli_query($db,$query);
+    if(mysqli_num_rows($boolemail)==1)
+    {
+//generate token
+//send token to email registered with account
+    }
 }
 
 ?>

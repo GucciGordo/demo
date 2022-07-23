@@ -17,12 +17,12 @@
         <form style='background-color: #dda0dd' action='login.php' method='post'>
             <?php include('errors.php') ?>
             <div>
-                <label for='username'><b>Username :</b> </label>
-                <input type='text' name='username' required>
+                <label for='username'><b>Username : </b></label>
+                <input type='text' name='username'>
             </div>
             <div>
-                <label for='password'><b>Password :</b> </label>
-                <input type='password' name='password_1' required>
+                <label for='password'><b>password : </b></label>
+                <input type='password' name='password_1'>
             </div>
             <div>
                 <button type='submit' name='login_user'>Login</button>
