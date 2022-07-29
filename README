@@ -7,3 +7,4 @@ Account success email.
 Email verification.
 Phone verification adnd text.
 Make php server a little more portable. Need to be able to switch between devices. Perhaps host on the web.
+Recreated server on seperate machine. Wonder if hashed password spells out same chars.
