@@ -1,12 +1,14 @@
 This is an exploration into the server side of web development. This tool creates user accounts and stores the data on a php database on a local machine. XAMPP control panel was used to run apache and mysql. Passwords are encrypted using a php password hashing algorithm. 
 
 TODO:
-Password recovery.
+Password recovery. -- CANNOT SEND EMAIL FROM LOCAL SERVER
 More error handling.
 Account success email.
 Email verification.
-Phone verification adnd text.
+Phone verification and text.
 Make php server a little more portable. Need to be able to switch between devices. Perhaps host on the web.
+Use this project to learn a framework.
+Add primary key to users table.
 
 
 SIDE NOTES:
