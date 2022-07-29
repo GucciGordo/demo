@@ -7,4 +7,9 @@ Account success email.
 Email verification.
 Phone verification adnd text.
 Make php server a little more portable. Need to be able to switch between devices. Perhaps host on the web.
+
+
+SIDE NOTES:
 Recreated server on seperate machine. Wonder if hashed password spells out same chars.
+Wondered about hosting my own server. bad idea. Learned most hosts provide phpMyAdmin functionality. 
+
