@@ -6,3 +6,4 @@ More error handling.
 Account success email.
 Email verification.
 Phone verification adnd text.
+Make php server a little more portable. Need to be able to switch between devices. Perhaps host on the web.
