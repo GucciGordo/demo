@@ -102,6 +102,9 @@ if(isset($_POST['send_link']))//send resest link button pressed
     if(mysqli_num_rows($boolemail)==1)
     {
 //generate token
+            $date = date_create();
+            $timestamp = date_timestamp_get($date);
+            
 //send token to email registered with account
     }
 }
