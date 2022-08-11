@@ -1,4 +1,4 @@
-This is an exploration into the server side of web development. This tool creates user accounts and stores the data on a php database on a local machine. XAMPP control panel was used to run apache and mysql. Passwords are encrypted using a php password hashing algorithm. 
+This is an exploration into the server side of web development. This tool creates user accounts and stores the data on a php database on a local machine. XAMPP control panel was used to run apache and mysql. Passwords are encrypted using a php password hashing algorithm (bcrypt). 
 
 TODO:
 Password recovery. -- CANNOT SEND EMAIL FROM LOCAL SERVER
