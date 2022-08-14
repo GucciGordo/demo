@@ -5,7 +5,6 @@
         <title>Login</title>
         <link rel="stylesheet" href="css\style.css">
     </head>
-
 <body style="background-color:#7e5e60;">
 
     <div class='container'>
@@ -32,10 +31,12 @@
             <p>Forgot password? <a href='passwordreset.php'><b>Click here.</b></a></p>
         </form>
     </div>
-
-
-
-    </form>
+    <div class="cube">
+        <div class="cube1"></div>
+        <div class="cube2"></div>
+        <div class="cube3"></div>
+    </div>
     <div class="spinner"></div>
+    </form>
 </body>
 </html>

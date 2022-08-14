@@ -76,23 +76,89 @@ button {
    border-radius: 4px;
 }
 .spinner {
-   width: 100px;
-   height: 100px;
+   width: 150px;
+   height: 150px;
    animation: Morph 3000ms infinite;
+   position: fixed;
    margin-right: auto;
    margin-left: auto;
+   left: 900px;
+   top: 100px;
 }
-@keyframes Morph {
-   0%,
-   100% {
-      border-radius:50%;
-      transform: rotate(0deg);
-      background-color: rgb(191, 105, 212);
-   }
-   50% {
-      border-radius: 0%;
-      transform: rotate(180deg);
-      background-color: rgb(224, 142, 245);
-   }
+.cube {
+   position: fixed;
+   width: 200px;
 }
+.cube1 {
+   width: 100px;
+   height: 50px;
+   background: #1A4341;
+   transform: rotate(45deg) skew(45deg);
+   position: fixed;
+   left: 177px;
+   top: 82px;
+   animation: breatheRight 2000ms infinite;
+
+   }
+.cube2 {
+   width: 100px;
+   height: 50px;
+   background: #998235;
+   transform: rotate(-45deg) skew(-45deg);
+   position: fixed;
+   left: 105px;
+   top: 85px;
+   animation: breatheLeft 2000ms infinite;
+   }
+.cube3 {
+   width: 100px;
+   height: 100px;
+   background: #F3AC3C;
+   transform: rotate(45deg);
+   position: fixed;
+   left: 141px;
+   top: 128px;
+   animation: breatheDown 2000ms infinite;
+   }
+   @keyframes Morph {
+      0%,
+      100% {
+         border-radius:50%;
+         background-color: rgb(191, 105, 212);
+      }
+      50% {
+         border-radius: 0%;
+         background-color: rgb(224, 142, 245);
+         transform: rotate(180deg);
+      }
+   }
+   @keyframes breatheRight {
+      0%,
+      100% {
+         transform: translateX(5px) rotate(45deg) skew(45deg);
+      }
+      50% {
+         transform: translateX(0px) rotate(45deg) skew(45deg);
+      }
+   }
+   @keyframes breatheLeft {
+      0%,
+      100% {
+         transform: translateX(-5px) rotate(-45deg) skew(-45deg);
+      }
+      50% {
+         transform: translateX(0px) rotate(-45deg) skew(-45deg);
+      }
+   }
+   @keyframes breatheDown {
+      0%,
+      100% {
+         transform: translateY(5px) rotate(45deg);
+      }
+      50% {
+         transform: translateY(0px) rotate(45deg);
+      }
+   }
+
+
 
