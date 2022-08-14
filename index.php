@@ -21,6 +21,7 @@ if(isset($_GET['logout']))
     <head>
         <title>Homepage</title>
         <link rel="stylesheet" href="css\style.css">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
     </head>
     <body style="background-color:#4c516d;">
     <body>

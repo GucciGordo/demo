@@ -9,6 +9,7 @@ Phone verification and text.
 Make php server a little more portable. Need to be able to switch between devices. Perhaps host on the web.
 Use this project to learn a framework.
 Add primary key to users table.
+Animations do not behave nice with resizing of browser plsfix
 
 
 SIDE NOTES:
