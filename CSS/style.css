@@ -75,4 +75,24 @@ button {
    border: 2px solid black;
    border-radius: 4px;
 }
+.spinner {
+   width: 100px;
+   height: 100px;
+   animation: Morph 3000ms infinite;
+   margin-right: auto;
+   margin-left: auto;
+}
+@keyframes Morph {
+   0%,
+   100% {
+      border-radius:50%;
+      transform: rotate(0deg);
+      background-color: rgb(191, 105, 212);
+   }
+   50% {
+      border-radius: 0%;
+      transform: rotate(180deg);
+      background-color: rgb(224, 142, 245);
+   }
+}
 
