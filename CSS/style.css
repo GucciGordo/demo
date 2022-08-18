@@ -89,6 +89,7 @@ button {
    position: fixed;
    width: 200px;
 }
+/*These are the individual faces of the cubes*/
 .cube1 {
    width: 100px;
    height: 50px;
