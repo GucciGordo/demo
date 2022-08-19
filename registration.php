@@ -10,29 +10,29 @@
         <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js"></script>
     </head>
 <body style="background-color:#483248;">
-    <div class='container'>
+    <div class='container container-fluid'>
         <div class='header'>
         <h2>Register</h2>
         </div>
     </div>
     <div class="container">
-        <form style='background-color: #dda0dd' action='registration.php' method='post'>
+        <form  action='registration.php' method='post'>
             <?php include('errors.php') ?>
             <div>
-                <label for='username'>Username : </label>
-                <input type='text' name='username' required>
+                <label for='username' class="form-label form-label-sm">Username : </label>
+                <input type='text' class="form-control form-control-sm" name='username' placeholder="Enter username" required>
             </div>
             <div>
-                <label for='email'>Email : </label>
-                <input type='email' name='email' required>
+                <label for='email' class="form-label form-label-sm">Email : </label>
+                <input type='email' class="form-control form-control-sm" name='email' placeholder="Enter your email" required>
             </div>
             <div>
-                <label for='password_1'>Password : </label>
-                <input type='password' name='password_1' required>
+                <label for='password_1' class="form-label form-label-sm">Password : </label>
+                <input type='password' class="form-control form-control-sm" name='password_1' placeholder="Enter a unique password" required>
             </div>
             <div>
-                <label for='password_2'>Confirm Password : </label>
-                <input type='password' name='password_2' required>
+                <label for='password_2' class="form-label form-label-sm">Confirm Password : </label>
+                <input type='password' class="form-control form-control-sm" name='password_2' placeholder="Reenter password" required>
             </div>
             <div>
                 <button type='submit' name='register_user'>Submit</button>

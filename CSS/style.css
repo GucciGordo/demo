@@ -39,8 +39,6 @@
     background-attachment: fixed;
     background-size: 100%;
     text-align: center;
-    border: 2px solid black;
-    border-radius: 4px;
  }
  label {
     display: table-cell;
@@ -51,15 +49,24 @@
  img {
     border: 2px solid black;
  }
-
 input {
      display: table-cell;
      text-align: left; 
      border: 2px solid black;
      border-radius: 4px;
-
 }
 button {
+   border: 2px solid black;
+   border-radius: 4px;
+}
+.form {
+   background-color: #DDA0DD;
+}
+.form-control {
+   display: table-cell;
+   width: 300px;
+   text-align: left;
+   color: black;
    border: 2px solid black;
    border-radius: 4px;
 }
@@ -119,9 +126,6 @@ button {
    top: 128px;
    animation: breatheDown 2000ms infinite;
    }
-.form-control {
-   width: 100px;
-}
    /*Animation for rotating square/circle*/
    @keyframes Morph {
       0%,
