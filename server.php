@@ -70,28 +70,29 @@ if(isset($_POST['login_user']))//login_user buttton
     }
     if(count($errors) === 0)
     {
-        $query = "SELECT password FROM users where username = '$username'";
-        $hash = mysqli_query($db,$query);//executing query to find hashed password
-        if(mysqli_num_rows($hash)==1)
-        {
-            $result = mysqli_fetch_row($hash);
-            $data = $result[0];//create a variable with value = hash string
-            if(password_verify($password_1,$data))//check password provided against stored hash
-
+            $query = "SELECT password FROM users where username = '$username'";
+            $hash = mysqli_query($db,$query);//executing query to find hashed password
+            if(mysqli_num_rows($hash)==1)
             {
-                $_SESSION['username'] = $username;
-                $_SESSION['success'] = "You have successfully logged in.";
-                header('Location: index.php');
+                $result = mysqli_fetch_row($hash);
+                $data = $result[0];//create a variable with value = hash string
+                if(password_verify($password_1,$data))//check password provided against stored hash
+    
+                {
+                    $_SESSION['username'] = $username;
+                    $_SESSION['success'] = "You have successfully logged in.";
+                    header('Location: index.php');
+                }
+                else
+                {
+                    array_push($errors,'Incorrect Username/Password combination. Try again.');
+                }
             }
             else
             {
                 array_push($errors,'Incorrect Username/Password combination. Try again.');
             }
-
-        }
-
     }
-
 }
 
 //password resest logic
