@@ -36,7 +36,7 @@
         <div class="cube2"></div>
         <div class="cube3"></div>
     </div>
-    <div class="spinner"></div>
+    <!--<div class="spinner"></div>-->
     </form>
 </body>
 </html>

@@ -121,6 +121,7 @@ button {
    top: 128px;
    animation: breatheDown 2000ms infinite;
    }
+   /*Animation for rotating square/circle*/
    @keyframes Morph {
       0%,
       100% {
@@ -133,6 +134,7 @@ button {
          transform: rotate(180deg);
       }
    }
+   /*These are the animations for cube breathing*/
    @keyframes breatheRight {
       0%,
       100% {
