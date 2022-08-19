@@ -9,7 +9,7 @@
         <link rel="stylesheet" href="css\style.css">
         <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js"></script>
     </head>
-<body style="background-color:#7e5e60;">
+<body style="background-color:#483248;">
     <div class='container container-fluid'>
         <div class='header'>
         <h2>Login</h2>
@@ -29,9 +29,9 @@
             <div class="d-flex justify-content-end">
                 <button type='submit' name='login_user' class="mx-auto my-1">Login</button>
             </div>
-            <p>Don't have an account? <a href='registration.php'><b>Register here.</b></a></p>
+            <p class="px-2 mx-auto">Don't have an account? <a class="text-info" href='registration.php'><b>Register here</b></a></p>
             <br>
-            <p>Forgot password? <a href='passwordreset.php'><b>Click here.</b></a></p>
+            <p class="px-2 mx-auto">Forgot password? <a class="text-info" href='passwordreset.php'><b>Click here</b></a></p>
         </form>
     </div>
     <!--<div class="cube">

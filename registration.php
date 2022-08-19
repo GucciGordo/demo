@@ -35,9 +35,9 @@
                 <input type='password' class="form-control form-control-sm" name='password_2' placeholder="Reenter password" required>
             </div>
             <div>
-                <button type='submit' name='register_user'>Submit</button>
+                <button class="my-1" type='submit' name='register_user'>Submit</button>
             </div>
-            <p>Already a user? <a href='login.php'><b>Login</b></a></p>
+            <p class="px-2 mx-auto">Already a user? <a class="text-info" href='login.php'><b>Login</b></a></p>
     </div>
 
     </form>

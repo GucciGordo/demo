@@ -20,12 +20,15 @@ if(isset($_GET['logout']))
 <html>
     <head>
         <title>Homepage</title>
-        <link rel="stylesheet" href="css\style.css">
+        <meta charset="utf-8">
         <meta name="viewport" content="width=device-width, initial-scale=1">
+        <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet">
+        <link rel="stylesheet" href="css\style.css">
+        <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js"></script>
     </head>
     <body style="background-color:#4c516d;">
     <body>
-        <div class="container">
+        <div class="container-fluid">
             <h1>This is the homepage.</h1>
             <?php
             if(isset($_SESSION['success'])) :
@@ -42,9 +45,9 @@ if(isset($_GET['logout']))
         <?php endif ?>
         <?php if(isset($_SESSION['username'])) : ?>
             <div class="container">
-                <h3>Welcome <strong><?php echo $_SESSION['username']; ?>!</strong></h3>
-                <h2>This content can only be viewed by someone with a valid session token. GGz!<h2>
-                <button><a href="index.php?logout='1'">Logout</a></button>
+                <h3 class="mt-1">Welcome <strong><?php echo $_SESSION['username']; ?>!</strong></h3>
+                <p class="h1">This content can only be viewed by someone with a valid session token. GGz!<p>
+                <button class="bg-secondary"><a class="text-light" href="index.php?logout='1'">Logout</a></button>
             </div>
             <?php else : ?>
             <div class="container">
