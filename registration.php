@@ -17,22 +17,24 @@
     </div>
     <div class="container">
         <form  action='registration.php' method='post'>
-            <?php include('errors.php') ?>
+            <div class="my-2">
+                <?php include('errors.php') ?>
+            </div>
             <div>
                 <label for='username' class="form-label form-label-sm">Username : </label>
-                <input type='text' class="form-control form-control-sm" name='username' placeholder="Enter username" required>
+                <input type='text' class="form-control form-control-sm" name='username' placeholder="Enter username">
             </div>
             <div>
                 <label for='email' class="form-label form-label-sm">Email : </label>
-                <input type='email' class="form-control form-control-sm" name='email' placeholder="Enter your email" required>
+                <input type='email' class="form-control form-control-sm" name='email' placeholder="Enter your email">
             </div>
             <div>
                 <label for='password_1' class="form-label form-label-sm">Password : </label>
-                <input type='password' class="form-control form-control-sm" name='password_1' placeholder="Enter a unique password" required>
+                <input type='password' class="form-control form-control-sm" name='password_1' placeholder="Enter a unique password">
             </div>
             <div>
                 <label for='password_2' class="form-label form-label-sm">Confirm Password : </label>
-                <input type='password' class="form-control form-control-sm" name='password_2' placeholder="Reenter password" required>
+                <input type='password' class="form-control form-control-sm" name='password_2' placeholder="Reenter password">
             </div>
             <div>
                 <button class="my-1" type='submit' name='register_user'>Submit</button>

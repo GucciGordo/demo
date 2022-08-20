@@ -17,7 +17,9 @@
     </div>
     <div class='container container-fluid'>
         <form action='login.php' method='post'>
-            <?php include('errors.php') ?>
+            <div class="my-2">
+                <?php include('errors.php') ?>
+            </div>
             <div class="mb-3 mt-3 mx-auto">
                 <label for='username' class="form-label form-label-sm" >Username : </label>
                 <input type='text' class="form-control form-control-sm" placeholder="Enter username" name='username'>
