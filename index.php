@@ -45,7 +45,7 @@ if(isset($_GET['logout']))
         <?php endif ?>
         <?php if(isset($_SESSION['username'])) : ?>
             <div class="container">
-                <h3 class="mt-1">Welcome <strong><?php echo $_SESSION['username']; ?>!</strong></h3>
+                <h3 class="mt-1"><script src="js/add-content.js"></script><strong><?php echo $_SESSION['username']; ?>!</strong></h3>
                 <p class="h1">This content can only be viewed by someone with a valid session token. GGz!<p>
                 <button class="bg-secondary"><a class="text-light" href="index.php?logout='1'">Logout</a></button>
             </div>
