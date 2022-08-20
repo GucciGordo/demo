@@ -17,9 +17,7 @@
     </div>
     <div class="container">
         <form  action='registration.php' method='post'>
-            <div class="my-2">
-                <?php include('errors.php') ?>
-            </div>
+            <?php include('errors.php') ?>
             <div>
                 <label for='username' class="form-label form-label-sm">Username : </label>
                 <input type='text' class="form-control form-control-sm" name='username' placeholder="Enter username">
