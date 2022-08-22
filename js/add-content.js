@@ -13,7 +13,7 @@ function Greet(){
         greeting = 'Welcome ';
     }
     
-    var elWelcome = document.getElementById('welcome');
+    var elWelcome = document.getElementById('welcome');//search for id='welcome' in html file
     elWelcome.innerHTML = greeting;
 }
 Greet();
