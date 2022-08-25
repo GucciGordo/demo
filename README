@@ -2,11 +2,9 @@ This is an exploration into the server side of web development. This tool create
 
 TODO:
 Password recovery. -- CANNOT SEND EMAIL FROM LOCAL SERVER
-More error handling.
 Account success email.
 Email verification.
 Phone verification and text.
-Make php server a little more portable. Need to be able to switch between devices. Perhaps host on the web.
 Use this project to learn a framework.
 Add primary key to users table.
 Animations do not behave nice with resizing of browser plsfix
